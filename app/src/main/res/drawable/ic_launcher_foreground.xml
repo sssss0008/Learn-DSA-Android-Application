@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Connecting Edges of Tree / Graph -->
+    <!-- Root (54, 30) to Left (36, 52) -->
+    <path
+        android:pathData="M54,30 L36,52"
+        android:strokeColor="#38B6FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Root (54, 30) to Right (72, 52) -->
+    <path
+        android:pathData="M54,30 L72,52"
+        android:strokeColor="#38B6FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Left (36, 52) to Bottom-Left (28, 74) -->
+    <path
+        android:pathData="M36,52 L28,74"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Left (36, 52) to Bottom-Mid-Left (44, 74) -->
+    <path
+        android:pathData="M36,52 L44,74"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Right (72, 52) to Bottom-Right (80, 74) -->
+    <path
+        android:pathData="M72,52 L80,74"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Array / Memory block line at bottom -->
+    <path
+        android:pathData="M24,84 L84,84"
+        android:strokeColor="#7B2CBF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Root Node (54, 30) -->
+    <path
+        android:pathData="M54,30 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#00F5D4"/>
+    <path
+        android:pathData="M54,30 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#0A1128"/>
+
+    <!-- Child Left Node (36, 52) -->
+    <path
+        android:pathData="M36,52 m-7.5,0 a7.5,7.5 0 1,0 15,0 a7.5,7.5 0 1,0 -15,0"
+        android:fillColor="#38B6FF"/>
+    <path
+        android:pathData="M36,52 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#0A1128"/>
+
+    <!-- Child Right Node (72, 52) -->
+    <path
+        android:pathData="M72,52 m-7.5,0 a7.5,7.5 0 1,0 15,0 a7.5,7.5 0 1,0 -15,0"
+        android:fillColor="#38B6FF"/>
+    <path
+        android:pathData="M72,52 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#0A1128"/>
+
+    <!-- Leaf 1 (28, 74) -->
+    <path
+        android:pathData="M28,74 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M28,74 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#0A1128"/>
+
+    <!-- Leaf 2 (44, 74) -->
+    <path
+        android:pathData="M44,74 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#00F5D4"/>
+    <path
+        android:pathData="M44,74 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#0A1128"/>
+
+    <!-- Leaf 3 (80, 74) -->
+    <path
+        android:pathData="M80,74 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M80,74 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#0A1128"/>
+
+</vector>
